@@ -324,34 +324,34 @@ but this data type does have two
 very popular uses.
 
 ### RULES FOR NAMING VARIABLES 
-1.
-The name must begin with
+
+1.The name must begin with
 a letter, dollar sign ($),or an
 underscore (_). It must not start
 with a number.
-2.
-All variables are case sensitive,
+
+2.All variables are case sensitive,
 so score and Score would be
 different variable names, but
 it is bad practice to create two
 variables that have the same
 name using different cases.
-3.
-The name can contain letters,
+
+3.The name can contain letters,
 numbers, dollar sign ($), or an
 underscore (_). Note that you
 must not use a dash(-) or a
 period (.) in a variable name.
-4.
-Use a name that describes the
+
+4.Use a name that describes the
 kind of information that the
 variable stores. For example,
 fi rstName might be used to
 store a person's first name,
 l astNarne for their last name,
 and age for their age.
-5.
-You cannot use keywords or
+
+5.You cannot use keywords or
 reserved words. Keywords
 are special words that tell the
 interpreter to do something. For
@@ -362,8 +362,8 @@ in a future version of JavaScript.
 ONLINE EXTRA
 View a full list of keywords and
 reserved words in JavaScript.
-6.
-If your variable name is made
+
+6.If your variable name is made
 up of more than one word, use a
 capital letter for the first letter of
 every word after the first word.
