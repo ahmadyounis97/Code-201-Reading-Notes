@@ -1,12 +1,12 @@
 # HTML Links, JS Functions, and Intro to CSS Layout
 ### Writing Links
-Links are created using the <a> element. Users can click on anything 
+Links are created using the < a> element. Users can click on anything 
 between the opening < a> tag and the closing < /a> tag. You specify 
 which page you want to link to using the href attribute.
  
  > example:  < a href="http://www.imdb.com">IMDB< /a>
 #### Linking to Other Sites
-Links are created using the <a>
+Links are created using the < a>
 element which has an attribute 
 called href. The value of the 
 href attribute is the page that 
@@ -66,7 +66,7 @@ uploaded them to the web).
 If you want a link to open in a 
 new window, you can use the 
 target attribute on the opening 
-<a> tag. The value of this 
+< a> tag. The value of this 
 attribute should be _blank.
 One of the most common 
 reasons a web page author 
@@ -96,7 +96,9 @@ that the link will go to. You do
 this using the id attribute (which 
 can be used on every HTML 
 element). You can see that the 
-<h1> and <h2> elements in this 
+
+
+ h1> and < h2> elements in this 
 example have been given id
 attributes that identify those 
 sections of the page.
@@ -124,8 +126,8 @@ link for that page.
 ![14](https://user-images.githubusercontent.com/79832772/111382320-83965b80-86af-11eb-8379-a3422f6a375a.png)
 
 ## summary 
-* Links are created using the <a> element.
-* The <a> element uses the href attribute to indicate 
+* Links are created using the < a> element.
+* The < a> element uses the href attribute to indicate 
 the page you are linking to.
 * If you are linking to a page within your own site, it is 
 best to use relative links rather than qualified URLs.
@@ -147,7 +149,7 @@ each item to appear lower down
 the page than the previous one. 
 Even if you specify the width 
 of the boxes and there is space 
-for two elements to sit side-byside, they will not appear next 
+for two elements to sit side-by side, they will not appear next 
 to each other. This is the default 
 behavior (unless you tell the 
 browser to do something else).
@@ -229,7 +231,7 @@ with a z-index of 5.
 #### Creating Multi-Column Layouts with Floats
 Many web pages use multiple 
 columns in their design. This 
-is achieved by using a <div>
+is achieved by using a < div>
 element to represent each 
 column. The following three CSS 
 properties are used to position 
@@ -245,13 +247,13 @@ This creates a gap between the
 columns.
 A two-column layout like the one 
 shown on this page would need 
-two <div> elements, one for the 
+two < div> elements, one for the 
 main content of the page and 
 one for the sidebar.
   ![15](https://user-images.githubusercontent.com/79832772/111383210-96f5f680-86b0-11eb-84d8-86927993d65d.png)
 
 ### Summary
-* <div> elements are often used as containing elements 
+* < div> elements are often used as containing elements 
 to group together sections of a page.
 * Browsers display pages in normal flow unless you 
 specify relative, absolute, or fixed positioning.
@@ -280,10 +282,10 @@ attribute has a value of message.
 The message is going to be 
 changed using JavaScript. 
 +:ii.\11 
-<!DOCTYPE html> 
-<html> 
-<head> 
-Before the closing </body> 
+< !DOCTYPE html> 
+< html> 
+< head> 
+Before the closing < /body> 
 tag, you can see the link to the 
 JavaScript file. The JavaScript 
 file starts with a variable used 
